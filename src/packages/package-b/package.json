@@ -25,6 +25,9 @@
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish"
   },
+  "dependencies": {
+    "testing-pnpm-package-a": "workspace:*"
+  },
   "keywords": [],
   "author": "DavidWells",
   "license": "ISC"

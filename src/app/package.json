@@ -30,8 +30,16 @@
   "author": "DavidWells",
   "license": "ISC",
   "dependencies": {
-    "testing-pnpm-package-a": "1.0.2",
-    "testing-pnpm-package-b": "1.0.1",
-    "testing-pnpm-package-c": "1.2.3"
+    "testing-pnpm-package-a": "workspace:*",
+    "testing-pnpm-package-b": "workspace:*",
+    "testing-pnpm-package-c": "workspace:*"
+  },
+  "dependenciesMeta": {
+    "testing-pnpm-package-a": {
+      "injected": true
+    },
+    "testing-pnpm-package-b": {
+      "injected": true
+    }
   }
 }
